@@ -20,24 +20,8 @@ public class FlightDepartsBeforeArrives implements Filter {
         return list;
     }
 
-//    @Override
-//    public List<Flight> filter(List<Flight> flightList) {
-//        List<Flight> resultList = new ArrayList<>();
-//        System.out.println();
-//        System.out.println("Полёты, без сегментов с датой прилёта раньше даты вылета: ");
-//        for (Flight flights : flightList) {
-//            for (Segment segments : flights.getSegments()) {
-//                if (segments.getArrivalDate().isAfter(segments.getDepartureDate())) {
-//                    resultList.add(flights);
-//                    break;
-//                }
-//            }
-//        }
-//        return resultList;
-//    }
+
 }
 
-//        flightList.forEach(flight -> flight.getSegments().stream()
-//        .filter(segment -> segment.getArrivalDate().isBefore(segment.getDepartureDate()))
-//                .forEach(segment -> System.out.println(segment.toString())));
+
 
